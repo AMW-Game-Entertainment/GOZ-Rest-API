@@ -1,0 +1,9 @@
+export { default as GetEvent } from "./Classes/GetEvent";
+export { default as GetEvents } from "./Classes/GetEvents";
+export { default as GetNotes } from "./Classes/GetNotes";
+export { default as GetPosts } from "./Classes/GetPosts";
+export { default as GetPost } from "./Classes/GetPost";
+export { default as GetUser } from "./Classes/GetUser";
+export { default as Like } from "./Classes/Like";
+export { default as Comment } from "./Classes/Comment";
+export { default as Upload } from "./Classes/Upload";

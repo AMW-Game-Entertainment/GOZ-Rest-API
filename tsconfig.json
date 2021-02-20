@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es2017",
+        "noImplicitAny": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "sourceMap": false, // TODO: Production must be true
+        "jsx": "react", // Causes inline XML (JSX code) to be expanded
+        "outDir": "dist",
+        "baseUrl": ".",
+        "typeRoots": [ "node_modules/@types" ],
+        "paths": {
+            "*": [
+                "node_modules/@types",
+            ]
+        }
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx"
+    ]
+}

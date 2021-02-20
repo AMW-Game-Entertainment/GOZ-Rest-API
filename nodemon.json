@@ -1,0 +1,11 @@
+{
+  "watch": ["src/*"],
+  "ignore": ["*.test.js", "vscode/*", ".idea/*", "public/*", "node_modules/*"],
+  "env": {
+    "SOCKET_PORT": 4000,
+    "PORT": 4001,
+    "NODE_ENV": "development",
+    "DOMAIN": "http://localhost:4001",
+    "CROSS_DOMAIN": "*"
+  }
+}
